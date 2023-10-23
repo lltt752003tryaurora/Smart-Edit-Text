@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp"
+    android:orientation="vertical">
+
+    <EditText
+        android:id="@+id/editTextScript"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:hint="Enter your script here"
+        android:gravity="top"
+        android:inputType="textMultiLine" />
+
+    <Button
+        android:id="@+id/buttonCheck"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:text="Check Script" />
+
+    <TextView
+        android:id="@+id/textViewMessage"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:text=""
+        android:textColor="@android:color/black"
+        android:textSize="16sp" />
+
+    <EditText
+        android:id="@+id/editTextBadWord"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Enter a new bad word"
+        android:inputType="text" />
+
+    <Button
+        android:id="@+id/buttonAddBadWord"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Add Bad Word" />
+
+    <Button
+        android:id="@+id/buttonDeleteBadWord"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Delete Bad Word" />
+
+    <TextView
+        android:id="@+id/textViewBadWordsList"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:text=""
+        android:textColor="@android:color/black"
+        android:textSize="14sp" />
+
+</LinearLayout>
